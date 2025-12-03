@@ -18,7 +18,7 @@ call    print_int
 ```
 
 **Screenshot:**  
-![Task 1.1](screenshots/task1_1.png)
+![Task 1.1](screenshots/worksheet1.png)
 
 **Explanation:** Loads first number into EAX register, adds second number, prints result (35).
 
