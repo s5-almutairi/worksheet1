@@ -18,7 +18,7 @@ call    print_int
 ```
 
 **Screenshot:**  
-![Task 1.1](screenshots/worksheet1.png)
+![worksheet1](https://github.com/user-attachments/assets/3839d1a4-d10d-491c-b504-1f4bdc374465)
 
 **Explanation:** Loads first number into EAX register, adds second number, prints result (35).
 
@@ -28,7 +28,7 @@ call    print_int
 Gets two numbers from user and prints their sum.
 
 **Screenshot:**  
-![Task 1.2](screenshots/task1_2.png)
+![worksheet1-2](https://github.com/user-attachments/assets/6ef1868d-7a36-4f12-8466-1ff5a72ef17a)
 
 **Explanation:** Uses read_int to get input, stores in memory, adds them, prints result.
 
@@ -48,8 +48,8 @@ jg      error           ; Jump if greater than 100
 ```
 
 **Screenshots:**  
-![Valid](screenshots/task2a_valid.png)  
-![Error](screenshots/task2a_error.png)
+![worksheet1-1](https://github.com/user-attachments/assets/315c4968-720d-4432-9f44-5dd5ee68cc30)
+
 
 **Explanation:** Uses compare and conditional jumps to validate range, then loops to print messages.
 
@@ -62,14 +62,14 @@ Creates array of 1-100, calculates sum (result: 5050).
 ```nasm
 mov     ecx, 100
 init_loop:
-    mov     [edi], eax  ; Store value
-    add     edi, 4      ; Next element (4 bytes)
+    mov     [edi], eax 
+    add     edi, 4     
     inc     eax
     loop    init_loop
 ```
 
 **Screenshot:**  
-![Task 2b](screenshots/task2b.png)
+![worksheet1-5](https://github.com/user-attachments/assets/7c716040-c8b2-4889-a321-c830c3babfd7)
 
 **Explanation:** Initializes array with loop, then sums all elements. Result is 5050.
 
@@ -79,7 +79,7 @@ init_loop:
 Gets start/end from user, sums only that range.
 
 **Screenshot:**  
-![Task 2c](screenshots/task2c.png)
+![worksheet1-4](https://github.com/user-attachments/assets/b2bb4576-8ea0-45e5-a18c-27d642442494)
 
 **Explanation:** Validates range, calculates starting address using pointer arithmetic, sums specified range.
 
@@ -96,7 +96,7 @@ make clean  # Remove compiled files
 ```
 
 **Screenshot:**  
-![Makefile](screenshots/makefile.png)
+![worksheet1-3](https://github.com/user-attachments/assets/b61eeea8-9a1d-4380-a7b8-f82851d76e2e)
 
 **How it works:** Uses pattern rules to automatically compile .asm files to .o files, then links them. Only rebuilds changed files.
 
@@ -138,5 +138,5 @@ os-worksheet1/
 
 ---
 
-**GitHub:** https://github.com/YOUR_USERNAME/os-worksheet1  
+**GitHub:** https://github.com/s5-almutairi/worksheet1
 **Submitted:** December 4th, 2025
