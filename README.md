@@ -1,7 +1,7 @@
 # Operating Systems Worksheet 1
-**Student:** [Your Name]  
-**Student ID:** [Your ID]  
-**Date:** December 2024
+**Student:** SAAD ALMUTAIRI   
+**Student ID:** 24023383 
+**Date:** December 2025
 
 ---
 
@@ -12,9 +12,9 @@ Adds two numbers (10 + 25) and prints result.
 
 **Code snippet:**
 ```nasm
-mov     eax, [num1]     ; Load 10
-add     eax, [num2]     ; Add 25
-call    print_int       ; Print 35
+mov     eax, [num1]     
+add     eax, [num2]    
+call    print_int       
 ```
 
 **Screenshot:**  
